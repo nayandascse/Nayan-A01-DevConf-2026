@@ -192,3 +192,33 @@ header{
     background-color: #2563EB;
     color: #FFFFFF;
 }
+.footer{
+    background-color: #333333;
+    
+    width: 100%;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px  8% 10px;
+
+}
+.footer-social{
+    display: flex;
+    gap: 20px;
+}
+.footer-logo img{
+    width: 100px;
+}
+.footer hr{
+   margin: 0px 8%;
+
+}
+.footer-text{
+    color: #575757;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px  8% 20px;
+
+}
